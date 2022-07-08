@@ -1,0 +1,20 @@
+{
+  "name": "node-ts-starter",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "unbuild",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "devDependencies": {
+    "@shapeng1998/eslint-config": "^0.6.0",
+    "@types/node": "^18.0.3",
+    "eslint": "^8.19.0",
+    "prettier": "^2.7.1",
+    "tsx": "^3.7.1",
+    "typescript": "^4.7.4",
+    "unbuild": "^0.7.4"
+  }
+}
