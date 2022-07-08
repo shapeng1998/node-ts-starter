@@ -9,7 +9,7 @@
     "lint:fix": "eslint . --fix"
   },
   "devDependencies": {
-    "@shapeng1998/eslint-config": "^0.6.0",
+    "@shapeng1998/eslint-config": "^0.6.2",
     "@types/node": "^18.0.3",
     "eslint": "^8.19.0",
     "prettier": "^2.7.1",
