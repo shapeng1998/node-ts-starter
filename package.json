@@ -6,15 +6,17 @@
     "dev": "tsx watch src/index.ts",
     "build": "unbuild",
     "lint": "eslint .",
-    "lint:fix": "eslint . --fix"
+    "lint:fix": "eslint . --fix",
+    "test": "vitest"
   },
   "devDependencies": {
     "@shapeng1998/eslint-config": "^0.6.3",
-    "@types/node": "^18.0.4",
+    "@types/node": "^18.0.5",
     "eslint": "^8.19.0",
     "prettier": "^2.7.1",
     "tsx": "^3.8.0",
     "typescript": "^4.7.4",
-    "unbuild": "^0.7.4"
+    "unbuild": "^0.7.4",
+    "vitest": "^0.18.0"
   }
 }
